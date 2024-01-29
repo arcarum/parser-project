@@ -17,6 +17,6 @@ The syntax analyzer is designed to validate the structure of assignment statemen
 `<operator> -> + | - | * | / | %`
 
 # Usage
-1) Ensure that there are sequentially numbered text files named '1', '2', and so on, present in the same directory as the `parser.py`
+1) Ensure that there are sequentially numbered text files named '1', '2', and so on, present in the same directory as the `parser.py`. The text files should contain the sentences to be parsed, there can be more than one sentence in each file.
 2) Run `parser.py`
 3) `parser_output.txt` will be generated and will contain the error details
