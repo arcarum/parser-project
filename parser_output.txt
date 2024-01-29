@@ -1,0 +1,75 @@
+#################### 1.txt ####################
+========== Sentence 1:
+ Sentence: x = y
+
+ --syntactically correct sentence--
+
+========== Sentence 2:
+ Sentence: x=y
+
+ --syntactically correct sentence--
+
+========== Sentence 3:
+ Sentence: y = y * count2
+
+ --syntactically correct sentence--
+
+========== Sentence 4:
+ Sentence: y=y*count2
+
+ --syntactically correct sentence--
+
+========== Sentence 5:
+ Sentence: p = 3.1415 * d
+
+ --syntactically correct sentence--
+
+========== Sentence 6:
+ Sentence: p=3.1415*d
+
+ --syntactically correct sentence--
+
+========== Sentence 7:
+ Sentence: z = a + b - 1 / c
+
+ --syntactically correct sentence--
+
+========== Sentence 8:
+ Sentence: z=a+b-1/c
+
+ --syntactically correct sentence--
+
+
+#################### 2.txt ####################
+========== Sentence 1:
+ Sentence: x = y *
+
+ Syntax error: expected an identifier or numerical-literal at position 7 (got: EOL)
+ Parsed: x = y *
+ Error:         ^
+
+========== Sentence 2:
+ Sentence: y = y z
+
+ Syntax error: expected an operator at position 6 (got: z)
+ Parsed: y = y z
+ Error:        ^
+ Syntax error: expected an identifier or numerical-literal at position 7 (got: EOL)
+ Parsed: y = y z
+ Error:         ^
+
+========== Sentence 3:
+ Sentence: 3 = p * d
+
+ Syntax error: invalid identifier at position 0 (got: 3)
+ Parsed: 3 = p * d
+ Error:  ^
+
+========== Sentence 4:
+ Sentence: z = + b - 1 /c
+
+ Syntax error: invalid numerical literal at position 6 (got: b)
+ Parsed: z = + b - 1 /c
+ Error:        ^
+
+

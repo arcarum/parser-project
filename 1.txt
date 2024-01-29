@@ -1,0 +1,8 @@
+x = y
+x=y
+y = y * count2
+y=y*count2
+p = 3.1415 * d
+p=3.1415*d
+z = a + b - 1 / c
+z=a+b-1/c
